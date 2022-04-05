@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">lab5 challenge</string>
+    <string name="adding_items">Add Item</string>
+    <string name="chanyeol">chanyeol</string>
+    <string name="baekhyun">baekhyun</string>
+    <string name="kai">kai</string>
+    <string name="sehun">sehun</string>
+    <string name="suho">suho</string>
+    <string name="chen">chen</string>
+</resources>

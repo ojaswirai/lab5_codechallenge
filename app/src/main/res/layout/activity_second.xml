@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_second">
+
+    <Button
+        android:id="@+id/buttonchanyeol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#03A9F4"
+        android:onClick="returnReplychanyeol"
+        android:text="@string/chanyeol"
+        app:layout_constraintEnd_toStartOf="@+id/buttonbaekhyun"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonbaekhyun" />
+
+    <Button
+        android:id="@+id/buttonbaekhyun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="#03A9F4"
+        android:onClick="returnReplybaekhyun"
+        android:text="@string/baekhyun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonkai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:onClick="returnReplykai"
+        android:text="@string/kai"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toEndOf="@+id/buttonbaekhyun"
+        app:layout_constraintTop_toTopOf="@+id/buttonbaekhyun" />
+
+    <Button
+        android:id="@+id/buttonsehun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#03A9F4"
+        android:onClick="returnReplysehun"
+        android:text="@string/sehun"
+        app:layout_constraintEnd_toStartOf="@+id/buttonsuho"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonsuho" />
+
+    <Button
+        android:id="@+id/buttonsuho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="#03A9F4"
+        android:onClick="returnReplysuho"
+        android:text="@string/suho"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonbaekhyun" />
+
+    <Button
+        android:id="@+id/buttonchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:onClick="returnReplychen"
+        android:text="@string/chen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonsuho"
+        app:layout_constraintTop_toTopOf="@+id/buttonsuho" />
+</android.support.constraint.ConstraintLayout>
